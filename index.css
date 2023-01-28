@@ -1,0 +1,87 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    padding: 70px;
+    box-sizing: content-box;  
+}
+
+.padre{
+    border-top: 60px solid rgb(192, 151, 204);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 31cm;
+    background: #d3bdbd;
+    margin: 6px;
+    padding: 20px;
+    border-bottom: 60px solid rgb(192, 151, 204);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+    
+.nombre{
+   color: darksalmon;
+   border-bottom: 1px solid black;
+}
+.cuerpo{
+    display: flex;
+}
+.izquierda{
+    margin: 6px;
+    padding: 20px;
+    flex: 1 1 30%;
+
+}
+.derecha{
+    margin: 6px;
+    padding: 20px;
+    flex: 1 1 70%;
+
+}
+figure{
+    color: darksalmon;
+}
+section ul{
+    color: black;
+}
+h2{
+    color: darksalmon;
+}
+h4{
+    color: aqua;
+}
+aside{
+    background-color:darkgray;
+}
+table{
+    padding-left: 100px;
+ }
+ td{
+    border-radius: 100%;
+    height: 3px;
+    width: 1%;
+    padding: 20px;
+    margin: 1px;        
+    background-color: rgb(189, 117, 117);
+ }
+ .idioma{
+    display: flex;
+ }
+ .competencias{
+    display: flex;
+ }
+ .formac{
+    display: flex;
+ }
+ .año{
+    margin-left: 25px;
+ }
+ .le{
+    font-weight: 700;
+
+ }
+ img{
+    width: 250px;
+    height: 250px;
+
+    border-radius: 100%;
+ }
